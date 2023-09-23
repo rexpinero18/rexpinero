@@ -1,0 +1,11 @@
+es = "y"
+wordbank = list()
+while es.lower() == "y":
+    word = str(input("Enter a Word: "))
+    wordbank.append(word)
+    res = (input("Do you want to try again? (Y/N): "))
+    print("=======================================")
+    print(f"Total Number of Words:  {len(wordbank)}")
+    print("World on the list: ")
+    for w in wordbank:
+        print(w)
