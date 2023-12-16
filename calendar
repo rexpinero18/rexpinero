@@ -1,0 +1,10 @@
+import calendar
+
+year = int(input("ENTER THE YEAR : "))
+#MONTH = int(input("ENTER THE YEAR : "))
+
+calendar.setfirstweekday(calendar.SUNDAY)
+
+#mycal = calendar.month(year,month)
+mycal = calendar.calendar(year)
+print(mycal)
