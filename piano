@@ -18,7 +18,7 @@ ABC3 = Frame(ABC, bg="royal blue", relief=RIDGE)
 ABC3.grid()
 
 str1 = StringVar()
-str1.set("Welcome to Liza's Piano")
+str1.set("Welcome to Rex Piano")
 Date1 = StringVar()
 Time1 = StringVar()
 
